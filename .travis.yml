@@ -9,5 +9,4 @@
   - export ANDROID_HOME=$PWD/android-sdk-linux
   - export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
 -install: true
--script:
--    - ./gradlew dist
+-script: - ./gradlew dist
